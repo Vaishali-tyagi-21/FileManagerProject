@@ -1,0 +1,116 @@
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(45deg, #e0e0e0, #f0f0f0);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f8f8;
+}
+
+.list-group-item .badge {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.list-group-item .badge.bg-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.list-group-item .badge.bg-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.list-group-item .badge.bg-light.text-dark {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-create {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.btn-rename {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.btn-refresh {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.btn-refresh:hover {
+  background-color: #138496;
+}
+
+/* Additional Styles for File and Folder Icons */
+
+.list-group-item .icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.list-group-item .icon.folder {
+  background-image: url('https://cdn.iconscout.com/icon/free/png-256/folder-267-569400.png');
+}
+
+.list-group-item .icon.file {
+  background-image: url('https://cdn.iconscout.com/icon/free/png-256/file-265-569431.png');
+}
